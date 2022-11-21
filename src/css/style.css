@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(128, 99, 99);
+  height: 1200px;
+}
+
+.block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+}
+.block:before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.active {
+  border-radius: 20%;
+  background-color: rgb(60, 60, 140);
+  width: 300px;
+  height: 300px;
+}
+
+.crug {
+  margin-left: 200px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(130, 108, 255);
+}
+
+.wrapper {
+  padding-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  background-color: rgb(238, 255, 47);
+  color: #000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#rub {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 15px;
+  background: #000;
+  color: yellow;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transition: 0.3s;
+  background: #fff;
+  color: #000;
+}
+
+.active {
+  display: block;
+  width: 300px;
+  height: 100px;
+}
